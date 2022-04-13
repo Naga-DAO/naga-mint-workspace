@@ -1,0 +1,19 @@
+---
+name: 🧩 New Feature Request
+description: Create a new feature request
+title: "[Feature]: "
+labels: ["feature 🧩"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this new feature request!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what new feature you want!
+    validations:
+      required: true
+---
